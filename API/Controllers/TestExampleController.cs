@@ -12,21 +12,8 @@ namespace SampleApp.API.Controllers
     [ApiController]
     public class TestExampleController : ControllerBase
     {
-        //// GET: api/<SalesOrderController>
-        //[HttpGet]
-        //public IEnumerable<TestClass> GetTestDetails()
-        //{
-        //    return new TestClass();
-        //}
-
-        //// GET api/<SalesOrderController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
-        // POST api/<SalesOrderController>
+        
+        // POST api/<TestExampleController>
         [HttpPost]
         [ProducesResponseType(typeof(ResultExample), 200)]
         public ResultExample Post([FromBody] TestClass test)
@@ -59,17 +46,5 @@ namespace SampleApp.API.Controllers
             return testResult;
         }
 
-
-        //// PUT api/<SalesOrderController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/<SalesOrderController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

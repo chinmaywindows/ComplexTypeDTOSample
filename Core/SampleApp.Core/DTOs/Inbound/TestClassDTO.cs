@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SampleApp.Core.Models;
 
-namespace SampleApp.Core.DTOs.Inbound
+namespace SampleApp.Core.DTOs
 {
     public class TestClassDTO
     {   
